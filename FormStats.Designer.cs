@@ -170,6 +170,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
+            this.label6.Cursor = System.Windows.Forms.Cursors.Cross;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.Location = new System.Drawing.Point(171, 200);
             this.label6.Name = "label6";
@@ -200,7 +201,7 @@
             this.Controls.Add(this.playerStatsLabel);
             this.HelpButton = true;
             this.Name = "FormStats";
-            this.Text = "FormStats";
+            this.Text = "Session Stats";
             this.Load += new System.EventHandler(this.FormStats_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

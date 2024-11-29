@@ -146,7 +146,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.playerHelpTitle);
             this.Name = "HelpForm";
-            this.Text = "HelpForm";
+            this.Text = "Player Help";
             this.ResumeLayout(false);
             this.PerformLayout();
 

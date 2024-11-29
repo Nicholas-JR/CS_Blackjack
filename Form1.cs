@@ -220,7 +220,15 @@ namespace N_Roach_CPT_185_Final_Project
                 DisplayCards();
                 dealerTotal = dealer.Hand.GetTotalValue();
                 await Task.Delay(1000);
+
+                if (dealerTotal > 21)
+                {
+                    dealerTotal = dealer.Hand.GetTotalValue(); //Recalculate after adjusting for aces
+                }
             }
+            int playerTotal = player.Hand.GetTotalValue();
+            Console.WriteLine($"Player hand value: {playerTotal}"); //Player and dealer hand values for debugging
+            Console.WriteLine($"Dealer hand value: {dealerTotal}");
         }
 
         //Deal button click logic

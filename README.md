@@ -14,7 +14,7 @@ Welcome to the classic game of **Blackjack**, built entirely in **C#**!
 
 - Classic **21-style Blackjack** gameplay  
 - **Player vs Dealer** mode  
-- Simple, intuitive **console-based UI**  
+- Simple, intuitive **Windows Forms Based UI**  
 - Smart dealer AI that mimics real-life behavior  
 - Game loop for continuous play  
 - Clear win/loss/tie outcomes
@@ -23,7 +23,6 @@ Welcome to the classic game of **Blackjack**, built entirely in **C#**!
 
 - **C#**
 - .NET (any version 6.0 or higher recommended)
-- Console App (no external dependencies)
 
 ### Run the App
 Clone the repository:
